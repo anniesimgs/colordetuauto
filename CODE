@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>seleccionando colores</title>
+</head>
+<body>
+    <script>
+        var color;
+        color=prompt('¿De que color será tu auto? Prueba tu suerte elige un color: ', '1, 2, 3, 4, 5 o 6');
+
+        if (color == "1")
+        {
+            document.bgColor='#f9cd26';
+        }
+        else if(color == "2")
+        {
+            document.bgColor='#a0d6cf';
+        }
+        else if(color == "3")
+        {
+            document.bgColor='#967cb4';
+        }
+        else if(color == "4")
+        {
+            document.bgColor='#0070b5';
+        }
+        else if(color == "5")
+        {
+            document.bgColor='#83e0bb';
+        }
+        else if(color == "6")
+        {
+            document.bgColor='#cd2c22';
+        }
+        else 
+        {
+            document.write('Por no seguir las reglas no tendrás coche');
+        }
+        
+        
+        
+
+    </script>
+</body>
+</html>
